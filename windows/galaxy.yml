@@ -1,0 +1,20 @@
+namespace: ansible
+name: windows
+version: 1.2.0
+readme: README.md
+authors:
+- Jordan Borean @jborean93
+- Matt Davis @nitzmahone
+description: |
+  Ansible collection for core Windows pluigns.
+license_file: COPYING
+tags:
+- windows
+dependencies: {}
+repository: https://github.com/ansible-collections/ansible.windows
+documentation: https://github.com/ansible-collections/ansible.windows/tree/main/docs
+homepage: https://github.com/ansible-collections/ansible.windows
+issues: https://github.com/ansible-collections/ansible.windows/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
+build_ignore:
+- tests/integration/inventory*
+- changelogs/.plugin-cache.yaml
